@@ -19,3 +19,16 @@ Stretch:
 
 5. Output the cleaned files into the local SSMS (use SQLAlchemy); create a new DB for this.
 6. Refactor your code into modular functions.
+
+# Day 2
+
+## AM Task:
+
+- Focus on having at least one function like:
+    - dataEnrich():
+        - Calculate the days between the two date columns and add it as a new col. 
+    - fileLoader
+    - duplicateCheck
+    - naCheck
+    - dataCleaner
+    - addToSQL
