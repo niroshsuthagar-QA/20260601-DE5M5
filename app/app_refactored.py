@@ -1,7 +1,7 @@
 ## Before starting, in terminal run 'pip install -r requiremtns.txt'
 
 import pandas as pd
-#from sqlalchemy import create_engine
+from sqlalchemy import create_engine
 #import pyodbc
 
 # Function to output dataframe that can be manipulated via a filepath
