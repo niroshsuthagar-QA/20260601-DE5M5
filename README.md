@@ -67,5 +67,5 @@ docker run myimagename
 
 2B. Running the container with a Volume:
 docker volume create myvolumename
-docker run -v myvolumename:/data myimagename
+docker run --rm -v myvolumename:/data myimagename
 
