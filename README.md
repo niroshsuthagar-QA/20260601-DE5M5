@@ -69,3 +69,7 @@ docker run myimagename
 docker volume create myvolumename
 docker run --rm -v myvolumename:/data myimagename
 
+# Day 3 PM:
+1. Tidy your repo & add requirements.txt to your root.
+2. Add GitHub Actions with YAML file from my repo.
+3. Trigger a push and see if the CI pipeline works as expected.
