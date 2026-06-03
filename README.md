@@ -33,3 +33,16 @@ Stretch:
     - dataCleaner
     - addToSQL
 
+# Day 3 AM:
+
+Level 1: 
+Create your docker container with your cleaner app and data files. Your data must be saved in the volume. 
+
+Level 2: 
+Look into the concept of Docker Compose
+
+Level 3:
+Look at the difference between Docker Swarm and Kubernetes 
+
+Stretch: 
+Discuss with Nirosh
