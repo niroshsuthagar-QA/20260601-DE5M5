@@ -46,3 +46,26 @@ Look at the difference between Docker Swarm and Kubernetes
 
 Stretch: 
 Discuss with Nirosh
+
+## Cheat Sheet
+0. Create your Docker File and folder must have your code that you want to containerise.
+
+Sample Docker File:
+```Docker
+FROM python:3.12-slim
+WORKDIR /app
+COPY . . 
+RUN pip install -r requirements.txt
+ENTRYPOINT ["python", "hello-volume.py"]
+```
+
+1. To build an image go to the working dir folder and THEN:
+docker build -t myimagename .
+
+2A. Runing the container  (Simply)
+docker run myimagename
+
+2B. Running the container with a Volume:
+docker volume create myvolumename
+docker run -v myvolumename:/data myimagename
+
